@@ -1,10 +1,10 @@
-/* header {
+header {
     background: darkred;
+    color: #fff;
     height: 50px;
-    color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 5%;
 }
 
@@ -14,17 +14,15 @@ header h1 {
 }
 
 header nav ul {
-    display: flex;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0;
     padding: 0;
     gap: 10%;
 }
 
-header nav ul li {
-    list-style-type: none;
-}
-
 header nav ul li a {
-    color: white;
     text-decoration: none;
-} */
+    color: white;
+}
