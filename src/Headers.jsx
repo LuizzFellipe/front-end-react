@@ -1,6 +1,6 @@
-import './Home.css';
+import './Headers.css';
 
-const Home = () => {
+const Headers = () => {
   return (
     <header>
         <h1>Liverpool</h1>
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default Headers;
