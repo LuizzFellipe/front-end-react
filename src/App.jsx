@@ -1,20 +1,11 @@
-import Headers from "./Headers";
-import Sideber from "./Sidebar";
-import Content from "./Content";
-import Footer from "./Footer";
+import "./App.css";
 
-import "./App.css"
+import Home from './components/pages/Home';
+
 
 const App = () => {
     return (
-        <>
-            <Headers />
-            <div id='main'>
-                <Sideber />
-                <Content />
-            </div>
-            <Footer />
-        </>
+        <Home />
     );
 };
 
