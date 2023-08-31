@@ -1,4 +1,5 @@
 import './Headers.css';
+import { NavLink } from 'react-router-dom';
 
 const Headers = () => {
   return (
@@ -6,9 +7,10 @@ const Headers = () => {
         <h1>Liverpool</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/quem-somos" className='hover'>Sobre</NavLink></li>
+                <li><NavLink to="/contato">Contato</NavLink></li>
+                <li><NavLink to="/cadastro">Cadastro</NavLink></li>
             </ul>
         </nav>
     </header>

@@ -16,7 +16,7 @@ header h1 {
 header nav ul {
     list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0;
     padding: 0;
     gap: 10%;
@@ -25,4 +25,18 @@ header nav ul {
 header nav ul li a {
     text-decoration: none;
     color: white;
+    padding: 10px;
+}
+
+
+header nav ul li a:hover {
+    background: darkslateblue;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+
+header nav ul li a.active {
+    border-bottom: 3px solid lightskyblue;
+    padding-bottom: 5px;
 }

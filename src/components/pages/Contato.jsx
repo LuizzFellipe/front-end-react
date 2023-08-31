@@ -1,23 +1,23 @@
+import Footer from "../layout/Footer";
 import Headers from '../layout/Headers';
 import Sidebar from '../layout/Sidebar';
 import Content from '../layout/Content';
-import Footer from '../layout/Footer';
 
 import React from 'react'
 
-const QuemSomos = () => {
+const Contato = () => {
   return (
     <>
-        <Headers/>
-        <div id='main'>
-            <Sidebar/>
+        <Headers />
+        <div id="main">
+            <Sidebar />
             <Content>
-              <h1>Quem Somos</h1>
+              <h1>Contato</h1>
             </Content>
         </div>
-        <Footer/>
+        <Footer />
     </>
   )
 }
 
-export default QuemSomos
+export default Contato;

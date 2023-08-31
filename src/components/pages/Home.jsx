@@ -11,7 +11,9 @@ const home = () => {
         <Headers />
         <div id='main'>
             <Sideber />
-            <Content />
+            <Content>
+              <h1>Home</h1>
+            </Content>
         </div>
         <Footer />
     </>
