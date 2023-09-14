@@ -1,6 +1,6 @@
 import './Content.css'
 
-const Content = ({children}) => {
+const Content = ({ children }) => {
   return (
     <div id='content'>
       {children}
@@ -8,4 +8,4 @@ const Content = ({children}) => {
   )
 }
 
-export default Content
+export default Content;

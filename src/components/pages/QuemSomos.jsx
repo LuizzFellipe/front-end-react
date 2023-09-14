@@ -8,16 +8,16 @@ import React from 'react'
 const QuemSomos = () => {
   return (
     <>
-        <Headers/>
-        <div id='main'>
-            <Sidebar/>
-            <Content>
-              <h1>Quem Somos</h1>
-            </Content>
-        </div>
-        <Footer/>
+      <Headers />
+      <div id='main'>
+        <Sidebar />
+        <Content>
+          <h1>Quem Somos</h1>
+        </Content>
+      </div>
+      <Footer />
     </>
   )
 }
 
-export default QuemSomos
+export default QuemSomos;

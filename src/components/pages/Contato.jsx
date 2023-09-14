@@ -8,14 +8,14 @@ import React from 'react'
 const Contato = () => {
   return (
     <>
-        <Headers />
-        <div id="main">
-            <Sidebar />
-            <Content>
-              <h1>Contato</h1>
-            </Content>
-        </div>
-        <Footer />
+      <Headers />
+      <div id="main">
+        <Sidebar />
+        <Content>
+          <h1>Contato</h1>
+        </Content>
+      </div>
+      <Footer />
     </>
   )
 }

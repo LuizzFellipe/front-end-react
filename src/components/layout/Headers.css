@@ -29,13 +29,6 @@ header nav ul li a {
 }
 
 
-header nav ul li a:hover {
-    background: darkslateblue;
-    transition: 0.4s;
-    border-radius: 10px;
-}
-
-
 header nav ul li a.active {
     border-bottom: 3px solid lightskyblue;
     padding-bottom: 5px;

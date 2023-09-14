@@ -6,11 +6,11 @@ import Footer from '../layout/Footer';
 const Cadastro = () => {
   return (
     <>
-       <Headers />
-       <Content>
-       <h1>Cadastro</h1>
-       </Content>
-       <Footer />
+      <Headers />
+      <Content>
+        <h1>Cadastro</h1>
+      </Content>
+      <Footer />
     </>
   )
 }

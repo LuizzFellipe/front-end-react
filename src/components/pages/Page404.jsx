@@ -6,9 +6,9 @@ import React from 'react'
 const Page404 = () => {
   return (
     <>
-        <Headers />
-            <h1>Página não Encontrada</h1>
-        <Footer />
+      <Headers />
+      <h1>Página não Encontrada</h1>
+      <Footer />
     </>
   )
 }
