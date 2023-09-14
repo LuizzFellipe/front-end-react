@@ -1,0 +1,21 @@
+.primary {
+    background-color: darkslategray;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+.secondary {
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}

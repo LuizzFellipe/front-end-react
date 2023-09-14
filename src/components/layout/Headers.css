@@ -16,16 +16,15 @@ header h1 {
 header nav ul {
     list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0;
     padding: 0;
-    gap: 10%;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 

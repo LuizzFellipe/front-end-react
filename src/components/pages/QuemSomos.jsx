@@ -3,7 +3,7 @@ import Sidebar from '../layout/Sidebar';
 import Content from '../layout/Content';
 import Footer from '../layout/Footer';
 
-import React from 'react'
+// import React from 'react'
 
 const QuemSomos = () => {
   return (

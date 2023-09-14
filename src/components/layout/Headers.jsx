@@ -1,5 +1,6 @@
 import './Headers.css';
 import { NavLink } from 'react-router-dom';
+import Button from '../utils/button';
 
 const Headers = () => {
   return (
@@ -10,7 +11,8 @@ const Headers = () => {
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/quem-somos" className='hover'>Sobre</NavLink></li>
           <li><NavLink to="/contato">Contato</NavLink></li>
-          <li><NavLink to="/cadastro">Cadastro</NavLink></li>
+          <li><Button variant="primary">Login</Button></li>
+          <li><Button variant="secondary">Cadastro</Button></li>
         </ul>
       </nav>
     </header>
