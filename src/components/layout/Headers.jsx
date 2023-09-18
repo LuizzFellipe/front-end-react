@@ -9,7 +9,7 @@ const Headers = () => {
       <nav>
         <ul>
           <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/quem-somos" className='hover'>Sobre</NavLink></li>
+          <li><NavLink to="/quem-somos" className='hover'>Quem Somos</NavLink></li>
           <li><NavLink to="/contato">Contato</NavLink></li>
           <li><Button variant="primary">Login</Button></li>
           <li><Button variant="secondary">Cadastro</Button></li>
