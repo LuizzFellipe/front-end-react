@@ -6,12 +6,18 @@ import CardUser from '../utils/CardUser';
 
 // import React from 'react'
 
-const user = {
-  nome: "Luizz Fellipe",
-  email: "luiz@gmail.com",
-  phono: "https://avatars.githubusercontent.com/u/127341699?v=4"
-}
-
+const users = [
+  {
+    nome: "Luizz Fellipe",
+    email: "luiz@gmail.com",
+    phono: "https://avatars.githubusercontent.com/u/127341699?v=4"
+  },
+  {
+    nome: "João",
+    email: "joao@gmail.com",
+    phono: "https://avatars.githubusercontent.com/u/472311?v=4"
+  }
+]
 const QuemSomos = () => {
   return (
     <>
@@ -20,9 +26,11 @@ const QuemSomos = () => {
         <Sidebar />
         <Content>
           <h1>Quem Somos</h1>
-          <CardUser user={user} />
-          <CardUser />
-          <CardUser />
+          {
+            users.map((user) => {
+              return <CardUser users={user} />
+            })
+          }
         </Content>
       </div>
       <Footer />
