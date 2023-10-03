@@ -28,7 +28,7 @@ const QuemSomos = () => {
     event.preventDefault()
 
     const newUser = {
-      name: event.target.name.value,
+      nome: event.target.nome.value,
       email: event.target.email.value,
       senha: event.target.senha.value,
       photo: event.target.photo.value
@@ -75,7 +75,7 @@ const QuemSomos = () => {
               <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3">
                   <Form.Label>Nome</Form.Label>
-                  <Form.Control type="text" name="name" />
+                  <Form.Control type="text" name="nome" />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Label>Email</Form.Label>
