@@ -75,7 +75,7 @@ const QuemSomos = () => {
               <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3">
                   <Form.Label>Nome</Form.Label>
-                  <Form.Control type="text" name="nome" />
+                  <Form.Control type="nome" name="nome" />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Label>Email</Form.Label>
