@@ -3,7 +3,7 @@ import Sidebar from '../layout/Sidebar';
 import Content from '../layout/Content';
 import Footer from '../layout/Footer';
 import CardUser from '../utils/CardUser';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import Button from "react-bootstrap/Button"
 import Modal from "react-bootstrap/Modal"
